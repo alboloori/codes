@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Puzzle8 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x401 /fo"Debug/Puzzle8.res" /d "_DEBUG" "H:\Projects\Algorithm\8-Puzzle\BackTracking\Puzzle8.rc"" 
+Creating temporary file "C:\DOCUME~1\Ali\LOCALS~1\Temp\RSPBF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Puzzle8.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\Projects\Algorithm\8-Puzzle\BackTracking\DepthDialog.cpp"
+"H:\Projects\Algorithm\8-Puzzle\BackTracking\Puzzle8.cpp"
+"H:\Projects\Algorithm\8-Puzzle\BackTracking\Puzzle8Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Ali\LOCALS~1\Temp\RSPBF.tmp" 
+Creating temporary file "C:\DOCUME~1\Ali\LOCALS~1\Temp\RSPC0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Puzzle8.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\Projects\Algorithm\8-Puzzle\BackTracking\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Ali\LOCALS~1\Temp\RSPC0.tmp" 
+Creating temporary file "C:\DOCUME~1\Ali\LOCALS~1\Temp\RSPC1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Puzzle8.pdb" /debug /machine:I386 /out:"Debug/Puzzle8.exe" /pdbtype:sept 
+".\Debug\DepthDialog.obj"
+".\Debug\Puzzle8.obj"
+".\Debug\Puzzle8Dlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Puzzle8.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Ali\LOCALS~1\Temp\RSPC1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DepthDialog.cpp
+Puzzle8.cpp
+Puzzle8Dlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Puzzle8.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
